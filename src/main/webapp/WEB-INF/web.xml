@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>KursovoiWebAppWithDB</display-name>
+  <welcome-file-list>
+    <welcome-file>LoginPage.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>controler.Login</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Login</servlet-name>
+     <url-pattern>/Login</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>AddToBasket</servlet-name>
+    <servlet-class>controler.AddToBasket</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>AddToBasket</servlet-name>
+     <url-pattern>/AddToBasket</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>controler.Logout</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Logout</servlet-name>
+     <url-pattern>/Logout</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>Filters</servlet-name>
+    <servlet-class>controler.Filters</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Filters</servlet-name>
+     <url-pattern>/Filters</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>SortCatalog</servlet-name>
+    <servlet-class>controler.SortCatalog</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>SortCatalog</servlet-name>
+     <url-pattern>/SortCatalog</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>MakePurchase</servlet-name>
+    <servlet-class>controler.MakePurchase</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>MakePurchase</servlet-name>
+     <url-pattern>/MakePurchase</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>controler.Register</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>Register</servlet-name>
+     <url-pattern>/Register</url-pattern>
+   </servlet-mapping>
+   
+   
+    <servlet>
+    <servlet-name>EditCardboard</servlet-name>
+    <servlet-class>controler.EditCardboard</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>EditCardboard</servlet-name>
+     <url-pattern>/EditCardboard</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>AddCardboard</servlet-name>
+    <servlet-class>controler.AddCardboard</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>AddCardboard</servlet-name>
+     <url-pattern>/AddCardboard</url-pattern>
+   </servlet-mapping>
+   
+     <servlet>
+    <servlet-name>SearchProducts</servlet-name>
+    <servlet-class>controler.SearchProducts</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>SearchProducts</servlet-name>
+     <url-pattern>/SearchProducts</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>AddGlue</servlet-name>
+    <servlet-class>controler.AddGlue</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>AddGlue</servlet-name>
+     <url-pattern>/AddGlue</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>EditGlue</servlet-name>
+    <servlet-class>controler.EditGlue</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>EditGlue</servlet-name>
+     <url-pattern>/EditGlue</url-pattern>
+   </servlet-mapping>
+   
+     <servlet>
+    <servlet-name>ActionsTape</servlet-name>
+    <servlet-class>controler.ActionsTape</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>ActionsTape</servlet-name>
+     <url-pattern>/ActionsTape</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>ActionsDrywall</servlet-name>
+    <servlet-class>controler.ActionsDrywall</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>ActionsDrywall</servlet-name>
+     <url-pattern>/ActionsDrywall</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>ActionsMembrana</servlet-name>
+    <servlet-class>controler.ActionsMembrana</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>ActionsMembrana</servlet-name>
+     <url-pattern>/ActionsMembrana</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+    <servlet-name>ActionsProviders</servlet-name>
+    <servlet-class>controler.ActionsProviders</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>ActionsProviders</servlet-name>
+     <url-pattern>/ActionsProviders</url-pattern>
+   </servlet-mapping>
+   
+   
+    <servlet>
+    <servlet-name>AddProvider</servlet-name>
+    <servlet-class>controler.AddProvider</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>AddProvider</servlet-name>
+     <url-pattern>/AddProvider</url-pattern>
+   </servlet-mapping>
+   
+   
+    <servlet>
+    <servlet-name>ActionsPurchases</servlet-name>
+    <servlet-class>controler.ActionsPurchases</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>ActionsPurchases</servlet-name>
+     <url-pattern>/ActionsPurchases</url-pattern>
+   </servlet-mapping>
+   
+</web-app>

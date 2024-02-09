@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Общие стили */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для элементов класса "sort" */
+.sort {
+  text-align: center;
+  position: sticky;
+  top: 0;
+
+  padding: 10px;
+  z-index: 9999; /* Чтобы элементы "sort" отображались поверх других элементов */
+  width: 100%; /* Установка ширины класса "sort" */
+}
+
+/* Стили для дополнительных элементов */
+.Borders {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Cost input {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 40%; /* Пример использования процентов для задания ширины */
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%; /* Пример использования процентов для задания ширины */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

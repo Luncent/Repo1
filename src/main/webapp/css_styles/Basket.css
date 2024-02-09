@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.removeBtn {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: #70c05b;
+  text-align: center;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  margin-left: 30px;
+}
+
+/*.exitBtn {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: #70c05b;
+  text-align: center;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  cursor: pointer; 
+  margin-left: 25px;
+}*/
+
+.incBalanceBtn {
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  color: #70c05b;
+  text-align: center;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  margin-left: 50px;
+}
+
+.userdiv{
+	margin:0 auto;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.userdiv button{
+	border-radius:2px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.btn3{
+ font-size: 14px;
+ width: 120px;
+ height: 40px;
+  background-color: #ff6633;
+  border-radius: 1px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+}
+
+.exitBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.exitBtn:hover {
+  background-color: #45a049;
+}
+
+.prodinfo{
+	font-size:11px;
+}
+
+.object{
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 5px;
+	border: 2px solid grey;
+ 	border-radius: 8px;
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/apache-tomcat-8.5.92">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/EclipseEE/sqljdbc_12.4.1.0_rus/sqljdbc_12.4/rus/jars/mssql-jdbc-12.4.1.jre11.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Applications/JasperReport/iReport-5.6.0/ireport/modules/ext/jasperreports-5.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Applications/JasperReport/iReport-5.6.0/ireport/modules/ext/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Applications/JasperReport/iReport-5.6.0/ireport/modules/ext/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Applications/JasperReport/iReport-5.6.0/ireport/modules/ext/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Applications/JasperReport/iReport-5.6.0/MyFonts.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/libs/itext.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/libs/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

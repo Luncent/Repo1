@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body{
+	background-image: url("stroy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+	font-size: 50px;
+	color: wheat;
+	font-weight: bold;
+}
+
+.Glue{
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background-color: rgba(135, 206, 250, 0.7);
+	margin-top:40px;
+	border-radius: 3px;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.str1{
+	display: flex;
+	justify-content: center;
+	margin:0 auto;
+	margin-top: 5px;
+ 	margin-bottom: 20px;
+}
+
+.str1 button{
+	margin-left: 10px;
+} 
+
+.str1 input{
+	width: 140px;
+	margin-right: 5px;
+}
+
+.str2{
+	display: flex;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+.str2 button{
+	margin-left: 10px;
+} 
+
+.str2 input{
+	margin-right: 5px;
+	width: 150px;
+}
+
+.str{
+	padding-top: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lb1{
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.str button{
+	margin-bottom: 5px;
+	height: 55px;
+	width: 270px;	
+}
+
+ .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* Стили для кнопки */
+        .dropdown-button {
+            background-color: #f1f1f1;
+            color: #333;
+            padding: 8px 16px;
+            border: 1px solid-black;
+            cursor: pointer;
+        }
+        
+        /* Стили для выпадающего контента */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            width: 270px;
+        }
+        
+        /* Стили для ссылок в выпадающем списке */
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        /* Стиль для активной ссылки */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        
+        /* Показываем выпадающий контент при наведении на кнопку */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+.row{
+	display: flex;
+	margin-left: 10px;
+
+}
+
+.row input{
+	width: 150px;
+	margin-bottom: 3px;
+}
+
+.stroka{
+	margin-left: 20px;
+	font-size: 20px;
+	align-items: center;
+}
+
+.stroka label{
+	width: 150px;
+	justify-content: center;
+	margin-right: -5px;
+}
+
+.row label{
+	font-size: 20px;
+	width: 120px;
+}
+
+.back{
+	font-size: 34px;
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
